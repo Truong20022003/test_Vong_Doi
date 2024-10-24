@@ -9,7 +9,7 @@ import android.view.View
 import android.view.ViewGroup
 
 // Fragment tương tu activity thoi,
-// Cau hoi hom truoc: OnDetroy o fragment goi truoc hay activity goi truoc: activity nha
+// Cau hoi hom truoc: OnDetroy o fragment goi truoc hay activity goi truoc
 class BlankFragment : Fragment() {
 
     private val TAG = "MEBANTRINHROI"
