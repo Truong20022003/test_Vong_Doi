@@ -2,6 +2,7 @@ package com.example.testvongdoi
 
 import android.os.Bundle
 import android.util.Log
+import android.widget.TextView
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
@@ -11,6 +12,10 @@ class MainActivity2 : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main2)
+        val btnStart = findViewById<TextView>(R.id.back)
+        btnStart.setOnClickListener {
+            finish()
+        }
         Log.d(
             "TAGCUATRINH", "onCreate(): Được gọi khi Activity lần đầu được tạo ra." +
                     " Đây là nơi thiết lập giao diện người dùng"
